@@ -1,5 +1,5 @@
 {
-  "name": "elgato-prompter-cli",
+  "name": "prompter-ctl",
   "version": "1.0.0",
   "description": "Unofficial CLI to control the Elgato Prompter (display power, brightness, contrast, flip) via Camera Hub's local API. Not affiliated with Elgato/Corsair.",
   "type": "module",
@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benbalter/elgato-prompter-cli.git"
+    "url": "git+https://github.com/benbalter/prompter-ctl.git"
   },
   "bugs": {
-    "url": "https://github.com/benbalter/elgato-prompter-cli/issues"
+    "url": "https://github.com/benbalter/prompter-ctl/issues"
   },
-  "homepage": "https://github.com/benbalter/elgato-prompter-cli#readme",
+  "homepage": "https://github.com/benbalter/prompter-ctl#readme",
   "files": [
     "src"
   ],

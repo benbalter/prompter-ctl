@@ -1,6 +1,6 @@
-# elgato-prompter-cli
+# prompter-ctl
 
-[![CI](https://github.com/benbalter/elgato-prompter-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/benbalter/elgato-prompter-cli/actions/workflows/ci.yml)
+[![CI](https://github.com/benbalter/prompter-ctl/actions/workflows/ci.yml/badge.svg)](https://github.com/benbalter/prompter-ctl/actions/workflows/ci.yml)
 
 Control the [Elgato Prompter](https://www.elgato.com/us/en/p/prompter) from the
 command line — display power, brightness, contrast, and flip — by talking to
@@ -38,20 +38,20 @@ behavior may change between Camera Hub versions; the property IDs are pinned in
 ## Install
 
 ```sh
-npm install -g elgato-prompter-cli
+npm install -g prompter-ctl
 ```
 
 Or run without installing:
 
 ```sh
-npx elgato-prompter-cli status
+npx prompter-ctl status
 ```
 
 Or clone and link for development:
 
 ```sh
-git clone https://github.com/benbalter/elgato-prompter-cli
-cd elgato-prompter-cli
+git clone https://github.com/benbalter/prompter-ctl
+cd prompter-ctl
 npm link
 ```
 
@@ -77,7 +77,7 @@ Camera Hub unreachable · `3` usage error.
 The client is also usable as an ES module:
 
 ```js
-import { PrompterClient } from "elgato-prompter-cli";
+import { PrompterClient } from "prompter-ctl";
 
 const prompter = await PrompterClient.connect();
 console.log(await prompter.isEnabled()); // true | false
