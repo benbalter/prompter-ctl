@@ -1,7 +1,7 @@
 {
   "name": "elgato-prompter-cli",
   "version": "1.0.0",
-  "description": "Control the Elgato Prompter (display power, brightness, contrast, flip) from the command line via Camera Hub's local API.",
+  "description": "Unofficial CLI to control the Elgato Prompter (display power, brightness, contrast, flip) via Camera Hub's local API. Not affiliated with Elgato/Corsair.",
   "type": "module",
   "bin": {
     "prompter": "src/cli.mjs"
