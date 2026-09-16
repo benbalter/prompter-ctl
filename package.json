@@ -1,0 +1,42 @@
+{
+  "name": "elgato-prompter-cli",
+  "version": "1.0.0",
+  "description": "Control the Elgato Prompter (display power, brightness, contrast, flip) from the command line via Camera Hub's local API.",
+  "type": "module",
+  "bin": {
+    "prompter": "src/cli.mjs"
+  },
+  "exports": "./src/client.mjs",
+  "main": "src/client.mjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "elgato",
+    "prompter",
+    "teleprompter",
+    "camera-hub",
+    "stream-deck",
+    "cli",
+    "macos"
+  ],
+  "author": "Ben Balter <ben@balter.com> (https://ben.balter.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbalter/elgato-prompter-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benbalter/elgato-prompter-cli/issues"
+  },
+  "homepage": "https://github.com/benbalter/elgato-prompter-cli#readme",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "ws": "^8.18.0"
+  }
+}
